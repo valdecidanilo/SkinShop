@@ -72,10 +72,6 @@ plugins/
       skinshop_<nickname>_p1.yml
 ```
 
-## Licença
-
-MIT - use, modifique e distribua livremente.
-
 ## Desenvolvedor
 
 Plugin criado por Valdeci Danilo
