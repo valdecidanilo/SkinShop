@@ -66,10 +66,45 @@ plugins/
     skins/
       steve.customskin
       alex.customskin
+    config.yml
     skins.db (ou conexão MySQL)
   CommandPanels/
     panels/
       skinshop_<nickname>_p1.yml
+```
+## Arquivo de configuração CONFIG.YML
+```
+# -----------------------------------------------------
+#   _____ _    _         _____ _                 
+#  /  ___| |  (_)       /  ___| |                
+#  \ `--.| | ___ _ __  \ `--.| |__   ___  _ __  
+#   `--. \ |/ / | '_ \  `--. \ '_ \ / _ \| '_ \ 
+#  /\__/ /   <| | | | | /\__/ / | | | (_) | |_) |
+#  \____/|_|\_\_|_| |_| \____/|_| |_|\___/| .__/ 
+#                                        | |    
+#                                        |_|    
+# -----------------------------------------------------
+
+# Tipo de armazenamento disponível:
+# SQLITE - Recomendado para servidores pequenos ou uso local
+# MYSQL - Recomendado para servidores maiores com múltiplos plugins compartilhando dados
+
+storage-type: SQLITE  # ou MYSQL
+
+# Configuração do banco de dados, usada quando o tipo for MYSQL
+database-configuration:
+  # Prefixo aplicado em todas as tabelas
+  table-prefix: "skinshop_"
+
+  # Dados de conexão (necessários apenas se storage-type for MYSQL)
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: 'senha-aqui'
+  database: skinshop
+
+  # Ativa ou desativa logs SQL detalhados
+  debug: false
 ```
 
 ## Desenvolvedor
