@@ -39,6 +39,8 @@
 skinshop.admin: Acesso a comandos administrativos (/skinshop)
 skinshop.use: Permite usar o comando /myskin
 ```
+Por padrão o skinshop.use já vem habilitado para todos, para remover o acesso é necessario deixar 
+o `skinshop.use false`
 
 ## Requisitos
 
