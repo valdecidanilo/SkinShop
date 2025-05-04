@@ -1,16 +1,6 @@
 # SkinShop
-```mclang
-# ---------------------------------------------------- #
-#   _____ _    _         _____ _                       #
-#  /  ___| |  (_)       /  ___| |                      #
-#  \ `--.| | ___ _ __  \ `--.| |__   ___  _ __         #
-#   `--. \ |/ / | '_ \  `--. \ '_ \ / _ \| '_  \       #
-#  /\__/ /   <| | | | | /\__/ / | | | (_) | |_) |      #
-#  \____/|_|\_\_|_| |_| \____/|_| |_|\___/| .__/       #
-#                                        | |           #
-#                                        |_|           #
-# ---------------------------------------------------- #
-```
+![image](https://github.com/user-attachments/assets/432d8bcd-f804-46c5-9d1a-3be30090c433)
+
 **SkinShop** 
 <br>É um plugin para servidores Minecraft (versão 1.21.4 Java e Bedrock com Geyser/Floodgate) que permite aos jogadores comprar, aplicar, visualizar e gerenciar skins personalizadas usando o plugin SkinsRestorer.
 
